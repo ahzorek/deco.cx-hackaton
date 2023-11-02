@@ -2,9 +2,10 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
-import * as $$$0 from "./loaders/Layouts/ProductCard.tsx";
-import * as $$$1 from "./loaders/List/Sections.tsx";
-import * as $$$2 from "./loaders/WeatherSegmentedLoader.ts";
+import * as $$$0 from "./loaders/GeolocationLoader.ts";
+import * as $$$1 from "./loaders/Layouts/ProductCard.tsx";
+import * as $$$2 from "./loaders/List/Sections.tsx";
+import * as $$$3 from "./loaders/WeatherSegmentedLoader.ts";
 import * as $$$$$$0 from "./sections/Gallery.tsx";
 import * as $$$$$$1 from "./sections/Footer/Footer.tsx";
 import * as $$$$$$2 from "./sections/Category/CategoryBanner.tsx";
@@ -45,9 +46,10 @@ import * as $$$$$$$$$$$1 from "./apps/site.ts";
 
 const manifest = {
   "loaders": {
-    "deco-sites/storefront/loaders/Layouts/ProductCard.tsx": $$$0,
-    "deco-sites/storefront/loaders/List/Sections.tsx": $$$1,
-    "deco-sites/storefront/loaders/WeatherSegmentedLoader.ts": $$$2,
+    "deco-sites/storefront/loaders/GeolocationLoader.ts": $$$0,
+    "deco-sites/storefront/loaders/Layouts/ProductCard.tsx": $$$1,
+    "deco-sites/storefront/loaders/List/Sections.tsx": $$$2,
+    "deco-sites/storefront/loaders/WeatherSegmentedLoader.ts": $$$3,
   },
   "sections": {
     "deco-sites/storefront/sections/Category/CategoryBanner.tsx": $$$$$$2,
