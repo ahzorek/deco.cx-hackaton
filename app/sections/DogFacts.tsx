@@ -3,6 +3,9 @@ import type { Product } from "apps/commerce/types.ts";
 import { AppContext } from "apps/vtex/mod.ts";
 import weather from "apps/weather/loaders/temperature.ts";
 
+import { MatchContext } from "deco/blocks/matcher.ts";
+
+
 // Props type that will be configured in deco.cx's Admin
 export interface Props {
   title: string;
@@ -34,4 +37,4 @@ export default function DogFacts(
   );
 }
 
-//NEW BRANCH
+//NEW BRANCH NEW COMMIT
