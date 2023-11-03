@@ -38,9 +38,10 @@ import * as $$$$$$28 from "./sections/Social/InstagramPosts.tsx";
 import * as $$$$$$29 from "./sections/Theme/Theme.tsx";
 import * as $$$$$$30 from "./sections/Links/LinkTree.tsx";
 import * as $$$$$$31 from "./sections/Links/Shortcuts.tsx";
-import * as $$$$$$32 from "./sections/DogFacts.tsx";
-import * as $$$$$$33 from "./sections/Newsletter/Newsletter.tsx";
-import * as $$$$$$34 from "./sections/Header/Header.tsx";
+import * as $$$$$$32 from "./sections/AskUserPreference.tsx";
+import * as $$$$$$33 from "./sections/DogFacts.tsx";
+import * as $$$$$$34 from "./sections/Newsletter/Newsletter.tsx";
+import * as $$$$$$35 from "./sections/Header/Header.tsx";
 import * as $$$$$$$$$$$0 from "./apps/decohub.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
 
@@ -52,16 +53,17 @@ const manifest = {
     "deco-sites/storefront/loaders/WeatherSegmentedLoader.ts": $$$3,
   },
   "sections": {
+    "deco-sites/storefront/sections/AskUserPreference.tsx": $$$$$$32,
     "deco-sites/storefront/sections/Category/CategoryBanner.tsx": $$$$$$2,
     "deco-sites/storefront/sections/Category/CategoryList.tsx": $$$$$$3,
     "deco-sites/storefront/sections/Content/Benefits.tsx": $$$$$$15,
     "deco-sites/storefront/sections/Content/Faq.tsx": $$$$$$14,
     "deco-sites/storefront/sections/Content/Logos.tsx": $$$$$$13,
     "deco-sites/storefront/sections/Content/Testimonials.tsx": $$$$$$12,
-    "deco-sites/storefront/sections/DogFacts.tsx": $$$$$$32,
+    "deco-sites/storefront/sections/DogFacts.tsx": $$$$$$33,
     "deco-sites/storefront/sections/Footer/Footer.tsx": $$$$$$1,
     "deco-sites/storefront/sections/Gallery.tsx": $$$$$$0,
-    "deco-sites/storefront/sections/Header/Header.tsx": $$$$$$34,
+    "deco-sites/storefront/sections/Header/Header.tsx": $$$$$$35,
     "deco-sites/storefront/sections/Images/BannerGrid.tsx": $$$$$$5,
     "deco-sites/storefront/sections/Images/Carousel.tsx": $$$$$$7,
     "deco-sites/storefront/sections/Images/ImageGallery.tsx": $$$$$$6,
@@ -74,7 +76,7 @@ const manifest = {
     "deco-sites/storefront/sections/Links/Shortcuts.tsx": $$$$$$31,
     "deco-sites/storefront/sections/Miscellaneous/CampaignTimer.tsx": $$$$$$25,
     "deco-sites/storefront/sections/Miscellaneous/CookieConsent.tsx": $$$$$$26,
-    "deco-sites/storefront/sections/Newsletter/Newsletter.tsx": $$$$$$33,
+    "deco-sites/storefront/sections/Newsletter/Newsletter.tsx": $$$$$$34,
     "deco-sites/storefront/sections/Product/ImageGalleryFrontBack.tsx":
       $$$$$$22,
     "deco-sites/storefront/sections/Product/ImageGallerySlider.tsx": $$$$$$21,
