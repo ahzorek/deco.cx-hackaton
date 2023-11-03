@@ -11,8 +11,11 @@ export type Props =
 function setCookie(cname: string, cvalue: string, exhours: number) {
   const d = new Date();
   d.setTime(d.getTime() + (exhours * 60 * 60 * 1000));
-  const expires = "expires=" + d.toUTCString();
-  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+  const expires = exhours ? "expires=" + d.toUTCString() : "";
+  const newCookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+  console.log("creating new cookie::", newCookie);
+
+  document.cookie = newCookie;
 }
 
 const CookieSetterButton = forwardRef<HTMLButtonElement, Props>(({
@@ -24,11 +27,14 @@ const CookieSetterButton = forwardRef<HTMLButtonElement, Props>(({
   cookieData,
   ...props
 }, ref) => {
-  const { value, cookieName, cookieExpires } = cookieData;
+  const { value, cookieName, cookieExpires, wrapper } = cookieData;
   return (
     <button
       {...props}
-      onClick={() => setCookie(cookieName, value, cookieExpires)}
+      onClick={() => {
+        setCookie(cookieName, value, cookieExpires);
+        document.querySelector(`#${wrapper}`).remove(); //pessima pratica
+      }}
       className={_class}
       disabled={disabled || loading}
       type={type}
